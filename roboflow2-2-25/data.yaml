@@ -1,0 +1,9 @@
+
+path: /DeerGuard  # Root dataset directory
+train: train/images  # Train images directory (relative to dataset_path)
+val: val/images      # Validation images directory (relative to dataset_path)
+test: test/images    # Test images directory (relative to dataset_path)
+names:
+  0: 'class_1'
+  1: 'class_2'
+  2: 'class_3'  # Modify according to your dataset's classes
